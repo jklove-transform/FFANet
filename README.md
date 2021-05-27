@@ -6,3 +6,5 @@ Medical images are an important means to assist doctors in making judgments. For
 Experimental environment and settings
 
 We adopt PyTorch to implement our method. All experiments are performed on the same server, which is equipped with one Nvidia 1080Ti and Intel i7-8700K CPU. In experiments, the Adam optimizer is adopted to train our method. We employ the cross-entropy loss as the training loss function. The initial learning rate is install to 0.001. We set the learning rate attenuation adaptive attenuation too. The training epochs is set to 250. The batch is set to 8.
+
+Virtual environment configuration in file requirement.txt
